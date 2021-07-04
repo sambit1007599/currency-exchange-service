@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: '@project.artifactId@'
+
+server:
+  port: 7075
+
+constants:
+  error:
+    dataFetchingException:
+      code: DATA_FETCH_FAILED
+      message: IoException occured while fetching data from ECB
+
+#swagger
+swagger.api:
+  title: 'EXCHANGE RATE SERVICE'
+  description: 'This service enable you to explore on currency exchange rates'
+  version: 1
+  apiType: private
+  defaultResponseMessage: false
+  basePackage: com.scalable.exchange
+  contact:
+    email: sambit1007599@gmail.com
+    teamName: Sambit Samal
